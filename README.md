@@ -35,7 +35,7 @@ bash tools/dist_train.sh  cfg_distill/deformdetr_r101_2x_distill_r50_LayerbyLaye
 
 ## Transfer
 ```
-# Tansfer the saved model into mmdet model
+# Tansfer the saved distilled model into mmdet model
 python pth_transfer.py --ckpt_path $ckpt --output_path $new_mmdet_ckpt
 ```
 ## Performance
