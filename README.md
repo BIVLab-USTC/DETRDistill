@@ -44,7 +44,7 @@ python pth_transfer.py --ckpt_path $ckpt --output_path $new_mmdet_ckpt
 | :---------: | :--------: | :-----------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |
 |  Deformable DETR  | ResNet-101  |     44.8     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r101_16x2_50e_coco_teacher.py) | [baidu](https://pan.baidu.com/s/16FHMFteZGoX4ui6hoB44Tg?pwd=xi35) | [baidu](https://pan.baidu.com/s/1e1OwOeBTKsPhDFBR2oqXzQ?pwd=5xqi) |
 |  Deformable DETR  | ResNet-50  |     44.1     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r50_16x2_50e_coco_student.py) | [baidu](https://pan.baidu.com/s/1UnfulC64iuCg6ZGREyhVxg?pwd=w2xv) | [baidu](https://pan.baidu.com/s/10BVPV9OUK6xtsA62vem02Q?pwd=j87v) |
-|  Deformable DETR-Distill  | ResNet-50  |     46.6(+2.5)    | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformdetr_r101_2x_distill_r50_LayerbyLayer_CL_teachergroup.py) |  | [baidu](https://pan.baidu.com/s/1Q1dcjc74Uk9O9KVrt6hfOg?pwd=n9hu) |
+|  Deformable DETR-Distill  | ResNet-50  |     46.6(+2.5)    | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformdetr_r101_2x_distill_r50_LayerbyLayer_CL_teachergroup.py) | running | [baidu](https://pan.baidu.com/s/1Q1dcjc74Uk9O9KVrt6hfOg?pwd=n9hu) |
 |  Deformable DETR  | ResNet-18  |     40.0     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r18_16x2_25e_coco_student.py) | |  |
 |  Deformable DETR-Distill  | ResNet-18  |     43.3(+3.3)    | [config]() |  |  |
 
