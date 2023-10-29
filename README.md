@@ -42,10 +42,10 @@ python pth_transfer.py --ckpt_path $ckpt --output_path $new_mmdet_ckpt
 ### MS COCO Val set
 |    Model    |  Backbone  | mAP |                            config                            |                          weight                          | code | log |
 | :---------: | :--------: | :-----------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |:--: |
-|  Deformable DETR  | ResNet-101  |     44.8     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r50_16x2_50e_coco_student.py) | [baidu]() |  | |
-|  Deformable DETR  | ResNet-50  |     44.1     | [config]() | [baidu]() |  | |
-|  Deformable DETR-Distill  | ResNet-50  |     46.6(+2.5)    | [config]() | [baidu]() |  | |
-|  Deformable DETR  | ResNet-18  |     40.0     | [config]() | [baidu]() |  | |
+|  Deformable DETR  | ResNet-101  |     44.8     | [config]([https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r50_16x2_50e_coco_student.py](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r101_16x2_50e_coco_teacher.py)) | [baidu]() |  | |
+|  Deformable DETR  | ResNet-50  |     44.1     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r50_16x2_50e_coco_student.py) | [baidu](https://pan.baidu.com/s/11JpTIPINa6N4d7wGDJw1Fw?pwd=8qvk) | 8qvk | |
+|  Deformable DETR-Distill  | ResNet-50  |     46.6(+2.5)    | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformdetr_r101_2x_distill_r50_LayerbyLayer_CL_teachergroup.py) | [baidu]() |  | |
+|  Deformable DETR  | ResNet-18  |     40.0     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r18_16x2_25e_coco_student.py) | [baidu]() |  | |
 |  Deformable DETR-Distill  | ResNet-18  |     43.3(+3.3)    | [config]() | [baidu]() |  | |
 
 
