@@ -27,7 +27,8 @@ pip install -v -e .
 ## Train
 
 ```
-#multi GPU
+# Deformable DETR
+cd deformdetr_project
 bash tools/dist_train.sh  cfg_distill/deformdetr_r101_2x_distill_r50_LayerbyLayer_CL_teachergroup.py  8
 ```
 
