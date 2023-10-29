@@ -52,7 +52,7 @@ python pth_transfer.py --ckpt_path $ckpt --output_path $new_mmdet_ckpt
 
 ## NOTE
 
-This repository is an initial draft, we will release more code in the future.
+This repository is an initial draft, we will release more code (AdaMixer, Conditional DETR) in the future.
 
 ## Acknowledgement
 
