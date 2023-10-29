@@ -42,7 +42,7 @@ python pth_transfer.py --ckpt_path $ckpt --output_path $new_mmdet_ckpt
 ### MS COCO Val set
 |    Model    |  Backbone  | mAP |                            config                            |                          weight                          | code | log |
 | :---------: | :--------: | :-----------: | :----------------------------------------------------------: | :------------------------------------------------------: | :--: |:--: |
-|  Deformable DETR  | ResNet-101  |     44.8     | [config]() | [baidu]() |  | |
+|  Deformable DETR  | ResNet-101  |     44.8     | [config](https://github.com/BIVLab-USTC/DETRDistill/blob/main/project/cfg_distill/deformable_detr/deformable_detr_r50_16x2_50e_coco_student.py) | [baidu]() |  | |
 |  Deformable DETR  | ResNet-50  |     44.1     | [config]() | [baidu]() |  | |
 |  Deformable DETR-Distill  | ResNet-50  |     46.6(+2.5)    | [config]() | [baidu]() |  | |
 |  Deformable DETR  | ResNet-18  |     40.0     | [config]() | [baidu]() |  | |
